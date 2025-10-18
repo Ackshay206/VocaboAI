@@ -1,4 +1,4 @@
-# === Logs ===
+#Logs
 logs
 *.log
 npm-debug.log*
@@ -7,18 +7,19 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# === Node Modules ===
+#Node_Modules
 node_modules/
 frontend/node_modules/
+backend/node_modules/
 
-# === Build Outputs ===
+#Build_output 
 dist/
 dist-ssr/
 frontend/dist/
 build/
 *.local
 
-# === Python ===
+#Python 
 __pycache__/
 *.py[cod]
 *$py.class
@@ -31,13 +32,13 @@ backend/env/
 .python-version
 uv.lock
 
-# === Environment Files ===
+#Environement Files
 .env
 .env.local
 frontend/.env
 backend/.env
 
-# === IDE & System Files ===
+#IDE Settings
 .vscode/*
 !.vscode/extensions.json
 .idea/
@@ -48,13 +49,13 @@ backend/.env
 *.sln
 *.sw?
 
-# === Package Managers ===
+#Package Manager 
 *.egg-info/
 pip-wheel-metadata/
 *.egg
 .eggs/
 
-# === Testing / Coverage ===
+#Testing and Coverage
 .coverage
 .pytest_cache/
 htmlcov/
@@ -62,8 +63,7 @@ coverage.xml
 jest-cache/
 jest-test-results.json
 
-# === Misc ===
-# Local data files or temporary dev files
+#Misc 
 tmp/
 *.bak
 *.tmp
